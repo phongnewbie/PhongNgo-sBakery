@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bake</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+     <!-- <audio controls autoplay loop hidden="" src="./Hen Gap Em Duoi Anh Trang - HurryKNG_ HI.mp3" type ="audio/mp3"></audio> -->
+   
+    <section class="header">
+        <div class="header__content">
+            <div class="owner">
+                <img src="AVT.jpg" alt="" class="owner-avt">
+                <!-- <div class="Information-Owner"> -->
+                <a href="https://www.facebook.com/profile.php?id=100034097792764" target="_blank">Ngô Thanh Phong</a>
+                <span class="First-header">(Owner)</span>
+                <!-- </div> -->
+            </div>
+            <p>Bake</p>
+            <nav>
+                <ul class="Nav-ul">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Service</a></li>
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">Clients</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="Carousel">
+        <div class="Carousel__content">
+            <h1>Welcome to</h1>
+            <h2>Phong Ngo's Bakery</h2>
+            <a href="#service__item"><i class="fa fa-arrow-down"></i></a>
+        </div>
+    </section>
+    <section class="service">
+        <div id="service__item">
+            <div class="service__Li st service__carousel">
+                <div class="service__cake">
+                    <div class="cake__item">
+                        <a href="order.html"><img src="puddings.jpg" alt="" class="IMG img1"></a>
+                        <p>Puddings</p>
+                    </div>
+                </div>
+                 <div class="service__cake">
+                    <div class="cake__item">
+                        <a href="order.html"><img src="tarts.jpg" alt="" class="IMG img2"></a>
+                        <p>tarts</p>
+                    </div>
+                </div>
+                 <div class="service__cake">
+                    <div class="cake__item">
+                        <a href="order.html"><img src="crepe.jpg" alt="" class="IMG img3"></a>
+                        <p>Crepe</p>
+                    </div>
+                </div>
+                 <div class="service__cake">
+                    <div class="cake__item">
+                        <a href="order.html"><a href="order.html" target="_blank"><img src="Donut.jpg" alt="" class="IMG img4"></a>
+                        <p>Donut</p>
+                    </div>
+                </div>
+                 <div class="service__cake">
+                    <div class="cake__item">
+                       <a href="order.html"><img src="puddings.jpg" alt="" class="IMG img5"></a>
+                        <p>puddings</p>
+                    </div>
+                </div>
+                 <div class="service__cake">
+                    <div class="cake__item">
+                        <a href="order.html"><img src="muffin.jpg" alt="" class="IMG img5"></a>
+                        <p>muffin</p>
+                    </div>
+                </div>
+                <div class="service__cake">
+                    <div class="cake__item">
+                        <a href="order.html"><img src="muffin.jpg" alt="" class="IMG img6"></a>
+                        <p>muffin</p>
+                    </div>
+                </div>
+                <div class="service__cake">
+                    <div class="cake__item">
+                        <a href="order.html"><img src="muffin.jpg" alt="" class="IMG img7"></a>
+                        <p>muffin</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+    <section class="statistic__number">
+        <div class="statistic">
+            <h2 class="number">3333</h2>
+            <p class="hello">Sold</p>
+        </div>
+        <div class="statistic">
+            <h2 class="number">3333</h2>
+            <p class="hello">Sold</p>
+        </div>
+
+        <div class="statistic">
+            <h2 class="number">3333</h2>
+            <p class="hello">Sold</p>
+        </div>
+        <div class="statistic">
+            <h2 class="number">3333</h2>
+            <p class="hello">Sold</p>
+        </div>
+    </section>
+    <section></section>
+    <section class="footer"></section>
+   
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+     <script src="./slick-1.8.1/slick/slick.js"></script>
+    <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
+     <script>
+      $(document).ready(function () {
+        $(".service__carousel").slick({
+          //setting-name: setting-value
+          infinite: true,
+          slidesToShow: 6,
+          slidesToScroll: 5,
+        //   button: true,
+           arrows: false,
+        //   dots: true,
+          // Khi item đang full cái width thì sẽ ko kéo đc
+        });
+      });
+    </script>
+     <script src="./Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/./Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/"></script>
+    <script>
+      $(".number").countUp();
+    </script>
+    <!-- fancy box 
+    phong to thu nho hinh anh
+    -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js" integrity="sha512-j7/1CJweOskkQiS5RD9W8zhEG9D9vpgByNGxPIqkO5KrXrwyDAroM9aQ9w8J7oRqwxGyz429hPVk/zR6IOMtSA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

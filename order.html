@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order food</title>
+    <link rel="stylesheet" href="main1.css" />
+  </head>
+  <body>
+    <header>Order food form</header>
+    <div>
+<div class="Submit-ordering-food">
+  <div class="form-submit">
+      <form
+        action="https://formsubmit.co/phongngo290902@gmail.com"
+        method="POST"
+      />
+      <span>Họ tên :
+      <input
+        type="name"
+        class="submit Name"
+        placeholder="Put your full name here"
+        name="FullName:"
+      /></span>
+      <!-- <br> -->
+      <span>Email:
+      <input
+        type="email"
+        name="email"
+        placeholder="Put your email here"
+        required
+        class=" submit Email"
+      /></span>
+      <!-- <br> -->
+      <span>Address:
+      <input
+        type="address"
+        name=""
+        class="submit address"
+        placeholder="Put  your address here"
+        required
+      /></span>
+      <input
+        type="hidden"
+        name="_next"
+        value="http://127.0.0.1:5500/ThankYou.html"
+      />
+      <input type="hidden" name="_subject" value="New submission!" />
+      <!-- <br> -->
+      <label class="submit country">Quốc Tịch</label>
+      <!-- <br> -->
+      <select name="" id="" class="submit select">
+        <option value="1">Việt Nam</option>
+        <option value="2">Mĩ</option>
+        <option value="3">Singapore</option>
+        <option value="4">Khác</option>
+      </select>
+      <!-- <br> -->
+      <span>SĐT
+      <input typ="tel" placeholder="Number" class="submit phone" required />
+      </span>
+      <!-- <br> -->
+      <fieldset class="submit sex">
+        <legend>Giới tính</legend>
+        <input type="radio" value="Nam" name="phai" required />Nam
+        <input type="radio" value="Nữ" name="phai" required />Nữ
+      </fieldset>
+       <br>
+       <span>Mô tả thực đơn:
+      <textarea
+        name=""
+        class="submit describe"
+        id=""
+        cols="20"
+        rows="5"
+        required
+        placeholder="Describe your order"
+        aria-required="true"
+      ></textarea>
+      </span> 
+      <!-- <br> -->
+      <div id="baoloi"></div>
+      <br>
+      <button type="submit">Send</button>
+      <input type="hidden" name="_captcha" value="true" />
+      <input
+        type="hidden"
+        name="_autoresponse"
+        value="Thank you for ordering the food"
+      />
+    </div>
+</div>
+    <!-- <script>
+        function Error(){
+            var loi = "";
+            //Kiểm tra email
+            var emailChecked = document.getElementsByClassName("Email");
+            if(emailChecked >= 20 && emailChecked == "" ){
+                document.write("Sai cmnr")
+            }else{
+                document.write(Đúng rồi nha)
+            }
+
+            //Kiểm tra họ tên
+            //
+            if (loi!=""){
+                document.getElementById("baoloi").innerHTML = loi;
+                return false;
+            }
+        }
+      </script>

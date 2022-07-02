@@ -1,0 +1,50 @@
+body{
+    background-color: chocolate;
+}
+header{
+    display: flex;
+    justify-content: center;
+    color: purple;
+    font-weight: 900;
+}
+.Submit-ordering-food{
+     /* display: block; */
+    /* align-items: center; */
+    /* justify-content: center; */
+   /* text-align: center; */
+    background: lightcoral;
+    padding: 20px;
+}
+.Submit-ordering-food input{
+    margin: 5px 0px;
+}
+.Submit-ordering-food button{
+    margin-left: 125px;
+}
+fieldset{
+    border: 1px solid grey;
+}
+button{
+    border: none;
+    background-color: aquamarine;
+    padding: 5px;
+}
+.baoloi{
+    margin: 0 auto;
+    color: red;
+}
+.submit{
+    display: block;
+    margin:0px;
+}
+.form-submit{
+    margin-left: 560px;
+}
+.sex{
+    width: 145px;
+}
+/* .submit-form{
+;
+} */
+
+

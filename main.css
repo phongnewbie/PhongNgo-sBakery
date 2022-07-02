@@ -1,0 +1,261 @@
+*{
+     /* margin: 0;  */
+    box-sizing: border-box;
+    padding: 0;
+    user-select: none;
+    user-zoom: none;
+}
+html{
+    font-size: 16px;
+    /*Nếu như mà set giá trị của font size cho tất cả các thẻ ở html là bao nhiêu thì giá trị của 1 rem sẽ bằng nhiêu đó 
+    Nếu như không khai báo font size ở thẻ html thì quy định sẽ là 1 rem bằng 16px
+    */
+}
+
+.Nav-ul{
+    list-style-type: none;
+}
+.Nav-ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+img{
+    height: 400px;
+    width: 200px;
+}
+.service{
+    background-color: chocolate;
+    padding: 50px 0px;
+}
+.owner-avt{
+    width: 100px;
+    height: 80px;
+    clip-path: circle(40%);
+    /* position: relative; */
+    right: 100px;
+
+}
+/* .Information-Owner{
+    display: flex;
+ justify-content: center; 
+} */
+
+.owner a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header__content .owner{
+    display: flex;
+}
+.header__content .owner a{
+     display: flex; 
+     align-items: center;
+    /* flex-direction: row;  */
+    /* position: relative; */
+    /* right: 200px;
+     */
+}
+.header__content{
+    background: transparent;
+    border-bottom: 1px solid red;
+    width: 100%;
+    position: absolute;
+}
+.First-header{
+     display: flex;
+    font-size: medium;
+    font-weight: bolder;
+    align-items: center;
+    color: red;
+    /* position: relative;
+    right: 100px;
+    bottom: 10px; */
+}
+.header__content ul .active a{
+    color: green;
+}
+.header__content{
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    /* position: fixed;
+    z-index: 1; */
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    height: 100px;
+
+}
+.header{
+    /* background-color: #4e2a84; */
+    margin-bottom: 1px solid rgb(255,255,255,0);
+}
+.Nav-ul li{
+    display: inline;
+    margin: 0px 1rem;
+    flex-direction: row;
+    /* align-items: flex-end; */
+   
+}
+.header__content ul a{
+    transition: all 1.5s;
+}
+.header__content ul a:hover{
+     color: #ff0e83;
+    /* transition: 2s; 
+    transition-timing-function: linear; */
+    /* transition-timing-function này dùng để set tốc độ nhanh dần hoặc chậm dần hoặc là giữ nguyên tốc độ đổi màu khi trỏ chuột tới element đó  
+    Ease: Hiệu ứng ban đầu chậm, sau đó nhanh và chậm dần
+    Linear: tốc độ giữ nguyên từ đầu tới cuối
+    Ease-in: Bắt đầu chậm, sau đó nhanh
+    Ease-out: Bắt đầu nhanh sau đó chậm
+    Ease-in-out : Bắt đầu và kết thúc chậm
+    trasition-duration : là dùng để chuyển từ màu này sang màu khác
+    transition-delay: Sẽ dừng khoảng một time nào đó thì mới chuyển màu
+    
+    */
+}
+p{
+    /* color: white; */
+    font-size: 2.3rem;
+}
+
+/* div{
+    display: block;
+} */
+.Carousel__content p{
+    font-size: 30px;
+}
+.Carousel{
+    background-image: url("./bakery.jpg");
+    /* background-attachment: fixed; */
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat ;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.Carousel__content{
+    height: 50%;
+    width: 50%;
+    /* flex-direction: row; */
+     /* justify-content: center;  */
+    text-align: center; 
+     /* align-items: center;  */
+    color: blue;
+    margin: 100px 0px;
+    font-size: 20px;
+    display: block;
+}
+.Carousel__content i{
+    /* display: block; */
+    animation-name: ScrollDownArrow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    font-size: 30px;
+}
+/* .cake__item{
+    padding: 0px 10px; 
+} */
+.cake__item >p{
+    position: relative;
+    bottom: 30px;
+    right: 30px;
+    color: cornflowerblue;
+    display: flex;
+    justify-content: end;
+    /* padding: 0; */
+    /* margin: 0; */
+}
+.IMG{
+    height: 150px;
+}
+/* .img1{
+    height: 150px;
+    width: 200px;
+}
+.img2{
+    height: 150px;
+} */
+/* p{
+    color: darkslategray;
+
+} */
+
+.service__List{
+    display: flex;
+}
+.service__cake .cake__item{
+   width: 100%;
+    height: 100%;
+    flex-direction: column;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+     position: relative; 
+    /* background: white; */
+    padding: 0px 10px;
+}
+/* audio{
+    display: none;
+} */
+.service{
+ padding: 20px 0px;
+}
+.service__cake .cake__item::before{
+    content: "";
+     position: absolute; 
+     top: 0;
+     right: -3px;
+    height: -100px;
+    width: 3px;
+    background: red;
+    /* transition se set cho no tu tren xuong duoi tai vi top = 0 */
+    
+}
+.statistic__number{
+    display: flex;
+    /* margin-right: 1500px; */
+    background: #000000;
+    color: white;
+}
+.statistic{
+    margin-left: 200px ;
+}
+ /* .number{   
+    color: white;
+} */
+.service__cake .cake__item:hover::before{
+    height: 150px;
+    transition: .3s;
+}
+.slick-dots li.slick-active button:before{
+    color: white;
+    opacity: 0.5;
+    font-size: 20px;
+}
+.slick-dots li button:before{
+    color: white;
+    opacity: 1;
+}
+
+@keyframes ScrollDownArrow{
+    from{
+        transform: translateY(0px);
+        opacity: 0;
+        color: aqua;
+    }
+    to{
+        color: darkorchid;
+        transform: translateY(200px);
+        opacity: 1;
+    }
+
+}
