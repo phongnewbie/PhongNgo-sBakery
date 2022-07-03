@@ -296,7 +296,7 @@ p{
 .First-header{
     position: relative;
     top: 30px;
-    right: 90px;
+    right: 85px;
 }
 .Nav-ul{
     display: none;
@@ -316,10 +316,34 @@ p{
 .service__cake{
     padding-left: 100px;
 }
-.cake__item{
+.Carousel{
+    background-size: cover;
+}
+.Carousel__content h1{
+    font-size: smaller;
+}
+.Carousel__content h2{
+    font-size: smaller;
+}
+@keyframes ScrollDownArrow  {
+    from{
+        transform: translateY(0px);
+        color: red;
+        opacity: 0;
+    }to{
+        transform: translateY(10px);
+        color: cornflowerblue;
+        opacity: 1;
+    }
+}
+.service__cake p{
+    position: relative;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+}
 
-}
-}
+
 /* phonee xoay ngang */
 @media screen and (max-width: 768px){
 
