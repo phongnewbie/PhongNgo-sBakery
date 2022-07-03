@@ -1,17 +1,17 @@
-var color = prompt('Ban la sinh vien khoa bao nhieu : (nho them chu k truoc khoa cua minh)');
-switch(color){
-    case 'k18':
-        document.write('xin chao chi  sinh vien 21 tuoi xinh dep');
-    break;
-    case 'k19':
-        document.write('Xin chao chi sinh vien 20 tuoi sinh dep');
-    break;
-    case 'k20':
-        document.write('Xin chao ban sinh vien 19 tuoi sinh dep ');
-        break;
-    case'k21':
-        document.write('Xin chao be sinh vien 18 tuoi xinh dep')
-        break;
-        default:
-        document.write('Nhap sai roi vui long nhap lai ');
+alert("Xin chào")
+function CF(){
+    do{
+    var Fullname = prompt("Cho mình xin họ tên của bạn");
+    var Age = confirm("Bạn đã đủ 15 tuổi để đặt bánh chưa??");
+    var format = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
+    }while(Fullname <= 10 && Fullname !== format && Age<=15){
+       if(Fullname <= 10 && Fullname !== format && Age<=15){
+            Fullname = prompt("Cho mình xin lại tên nha");
+            Age = confirm("Chắc là không đủ hong??");
+       }else{
+           break;
+       }
+        
+    }
 }
+CF();
