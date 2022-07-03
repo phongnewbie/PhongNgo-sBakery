@@ -306,7 +306,7 @@ p{
     color: blueviolet;
 }
 .service__cake p{
-    padding-left: 15px;
+    margin-left: 15px;
 }
 .service__cake img{
     width: 100px;
