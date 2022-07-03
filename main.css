@@ -307,13 +307,17 @@ p{
 }
 .service__cake p{
     margin-left: 15px;
+    font-size: smaller;
 }
 .service__cake img{
-    width: 100px;
+    width: 80px;
     padding-left: 20px;
 }
 .service__cake{
     padding-left: 100px;
+}
+.cake__item{
+    
 }
 }
 /* phonee xoay ngang */
