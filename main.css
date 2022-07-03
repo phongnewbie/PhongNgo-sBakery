@@ -291,10 +291,32 @@ p{
 @media screen and (max-width: 992px) {
     
 }
-/* phone xoay ngang */
+/* phone xoay dọc*/
 @media screen and (max-width: 576px){
-
+.First-header{
+    position: relative;
+    top: 30px;
+    right: 120px;
 }
+.Nav-ul{
+    display: none;
+}
+.header__content p{
+    margin-right: 180px;
+    color: blueviolet;
+}
+.service__cake p{
+    padding-left: 15px;
+}
+.service__cake img{
+    width: 100px;
+    padding-left: 20px;
+}
+.service__cake{
+    padding-left: 100px;
+}
+}
+/* phonee xoay ngang */
 @media screen and (max-width: 768px){
 
 
