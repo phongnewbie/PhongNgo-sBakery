@@ -254,8 +254,48 @@ p{
     }
     to{
         color: darkorchid;
-        transform: translateY(200px);
+        transform: translateY(150px);
         opacity: 1;
     }
+
+}
+@media screen  and (max-width: 1200px){
+    .cake__item{
+        width: 100vh;
+        height: 100vh;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .cake__item p{
+        position: relative;
+        top: 4px;
+        left: 5px;
+    }
+    .header__content{
+        width: 100%;
+    }
+    .statistic__number{
+        display: block;
+        text-align: center;
+    }
+    .number{
+        padding-top: 20px;
+    }
+    .cake__item{
+        padding-left: 15px;
+    }
+}
+/* Tablet */
+@media screen and (max-width: 992px) {
+    
+}
+/* phone xoay ngang */
+@media screen and (max-width: 576px){
+
+}
+@media screen and (max-width: 768px){
+
 
 }
