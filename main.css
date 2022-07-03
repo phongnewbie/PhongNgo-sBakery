@@ -306,12 +306,11 @@ p{
     color: blueviolet;
 }
 .service__cake p{
-    margin-left: 15px;
     font-size: smaller;
 }
 .service__cake img{
-    width: 80px;
-    padding-left: 20px;
+    width: 100px;
+    padding-left: 10px;
 }
 .service__cake{
     padding-left: 100px;
@@ -331,7 +330,7 @@ p{
         color: red;
         opacity: 0;
     }to{
-        transform: translateY(10px);
+        transform: translateY(100px);
         color: cornflowerblue;
         opacity: 1;
     }

@@ -43,8 +43,40 @@ button{
 .sex{
     width: 145px;
 }
+.tel{
+    margin-top: 100px;
+}
 /* .submit-form{
 ;
 } */
+@media screen  and (max-width: 1200px){
+   .form-submit{
+        position: relative;
+        right: 40px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .form-submit{
+        position: relative;
+        right: 145px;
+    }
+    .form-submit span{
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 576px){
+.form-submit{
+    position: relative;
+    right: 355px;
+    display: flex;
+}
+
+}
+@media screen and (max-width: 768px){
+    .form-submit{
+        position: relative;
+        right: 260px;
+    }
 
 
+}
